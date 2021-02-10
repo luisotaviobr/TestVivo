@@ -8,7 +8,8 @@ export class BotController {
 
   @Get(':id')
   get(@Param('id') id: string): string {
-    return this.botService.getBots(id);
+    //return this.botService.getBots(id);
+    return;
   }
 
   @Post()
